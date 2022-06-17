@@ -12,6 +12,7 @@ import javax.validation.constraints.Pattern;
 @Entity
 @Table(name="Customer_tbl")
 public class Customer {
+	// Ok This is Java
 	@Id
 	@Column(name="custId")
 	int custId;
